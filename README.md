@@ -19,25 +19,24 @@ a machine learning model to predict the number if yards to be gained/lost on giv
 **Dependencies:**
 
 The Jupyter Notebook makes use of the below libraries. The can be imported by running the code set out below:
-`import io
-import os
-import matplotlib.pyplot as plt
-import numpy as np 
-import pandas as pd
-import seaborn as sns
-# Importing the helper file in which helper functions are defined
-import helpers
-import boto3
-import sagemaker
-from sagemaker import get_execution_role
-%matplotlib inline`
+`import io`
+`import os`
+`import matplotlib.pyplot as plt`
+`import numpy as np`
+`import pandas as pd`
+`import seaborn as sns`
+`import helpers`
+`import boto3`
+`import sagemaker`
+`from sagemaker import get_execution_role`
+`%matplotlib inline`
 
 The helpers.py file makes use of the following libraries:
-`import fuzzywuzzy
-from fuzzywuzzy import process
-import chardet
-import numpy as np
-import math`
+`import fuzzywuzzy`
+`from fuzzywuzzy import process`
+`import chardet`
+`import numpy as np`
+`import math`
 
 **Installations:**
 
